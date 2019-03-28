@@ -9,12 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var Image: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        NotificationCenter.default.addObserver(forName: UIApplication.didEnterBackgroundNotification, object: nil, queue: nil) { (notification) in
+            self.Image.alpha = 0
+        }
     }
-
-
 }
-
