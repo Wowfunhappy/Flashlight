@@ -18,6 +18,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         NotificationCenter.default.addObserver(forName: UIApplication.didBecomeActiveNotification, object: nil, queue: nil) { (notification) in
+            UIView.transition(with: self.Image,
+                              duration:0.1,
+                              options: .transitionCrossDissolve,
+                              animations: { self.Image.image = UIImage(named:"On.png") },
+                              completion: nil)
+            
             timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: false, block: { timer in
                 // putting this in a timer seems to prevent odd behavior...
                 prevBrightness = UIScreen.main.brightness
@@ -27,6 +33,11 @@ class ViewController: UIViewController {
         }
         
         NotificationCenter.default.addObserver(forName: UIApplication.willResignActiveNotification, object: nil, queue: nil) { (notification) in
+            UIView.transition(with: self.Image,
+                              duration:0.1,
+                              options: .transitionCrossDissolve,
+                              animations: { self.Image.image = UIImage(named:"Off.png") },
+                              completion: nil)
             timer.invalidate()
             toggleTorch(on: false)
             UIScreen.main.setBrightness(prevBrightness, animated: true)
