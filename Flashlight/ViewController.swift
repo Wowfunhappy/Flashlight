@@ -45,7 +45,6 @@ class ViewController: UIViewController {
     }
 }
 
-
 func toggleTorch(on: Bool) {
     guard let device = AVCaptureDevice.default(for: .video) else { return }
     if device.hasTorch {
