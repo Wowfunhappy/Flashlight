@@ -4,7 +4,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2688h",
-      "filename" : "Simulator Screen Shot - iPhone XS Max - 2019-03-28 at 17.03.42.png",
+      "filename" : "Simulator Screen Shot - iPhone XS Max - 2019-04-08 at 14.04.23.png",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -21,7 +21,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "1792h",
-      "filename" : "Simulator Screen Shot - iPhone XR - 2019-03-28 at 17.03.09.png",
+      "filename" : "Simulator Screen Shot - iPhone XR - 2019-04-08 at 14.03.08.png",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -38,7 +38,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2436h",
-      "filename" : "Simulator Screen Shot - iPhone X - 2019-03-28 at 17.02.09.png",
+      "filename" : "Simulator Screen Shot - iPhone X - 2019-04-08 at 14.02.29.png",
       "minimum-system-version" : "11.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -55,7 +55,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "Simulator Screen Shot - iPhone 6s Plus - 2019-03-28 at 16.59.08.png",
+      "filename" : "Simulator Screen Shot - iPhone 6s Plus - 2019-04-08 at 14.01.46.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -72,7 +72,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "667h",
-      "filename" : "Simulator Screen Shot - iPhone 6s - 2019-03-28 at 16.58.17.png",
+      "filename" : "Simulator Screen Shot - iPhone 6s - 2019-04-08 at 13.55.40.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -88,7 +88,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "Simulator Screen Shot - iPhone SE - 2019-03-28 at 16.59.58.png",
+      "filename" : "Simulator Screen Shot - iPhone SE - 2019-04-08 at 14.01.00.png",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -136,7 +136,6 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "Simulator Screen Shot - iPhone SE - 2019-03-28 at 16.59.58-1.png",
       "extent" : "full-screen",
       "subtype" : "retina4",
       "scale" : "2x"
